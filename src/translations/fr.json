@@ -1,0 +1,15 @@
+{
+  "main.header.title": "Covid19",
+  "main.header.description": "Suivre l'évolution d'infection de coronavirus",
+  "main.global.statistics": "Statistiques globales",
+  "main.total.cases": "Total de tests :{{total}}  ",
+  "main.confirmed.cases": "Cas Confirmés  : {{total}} ",
+  "main.deaths.cases": "Cas de décès :{{total}} ",
+  "main.recovered.cases": "Cas guéris : {{total}}",
+  "main.active.cases": "Cas actifs : {{total}} ",
+  "main.negative.cases": "Cas négatifs: {{total}} ",
+  "main.evolution.cases": "Taux d'augmentation depuis la veille : {{total}} ({{rate}}) ",
+  "main.header.select.country": "Séléctionner un pays",
+  "main.global.statistics.date": "Dernière mise à jour Le : {{day}} {{month}} {{year}} at {{time}} AM",
+  "main.header.results.unavailable": "Résultats non disponibles"
+}

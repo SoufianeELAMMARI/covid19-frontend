@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Amiri', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+}
+
+/* https://bennettfeely.com/clippy/*/
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 1))
+    /* , url("/img/sud.jpg") */
+  ;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+
+}
+
+.select-language {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  position: absolute;
+}
+
+.select-language select {
+  border-radius: 2rem;
+}
+
+
+.select-language .custom-option {
+  position: relative;
+  display: block;
+  padding: 0 0 0 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #3b3b3b;
+  line-height: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.select-country select {
+  border-radius: 2rem;
+}
+
+.select-country .custom-option {
+
+  font-weight: 300;
+  color: #3b3b3b;
+
+}
+
+
+.logo-box {
+  position: absolute;
+}
+
+.logo-box img {
+  width: 10rem;
+  height: 10rem;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.logo {
+  height: 5rem;
+}
+
+
+.text-box {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  padding-left: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 4rem;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  /*    spacing: 3.5rem;*/
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+
+
+.heading-primary-sub {
+  display: block;
+  font-size: 3rem;
+  font-weight: 400;
+  font-weight: bold;
+  color: rgb(31, 18, 3);
+  animation-name: moveInRight;
+  animation-duration: 3s;
+}
+
+/* ================Animation================== */
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  animation: all .2s;
+}
+
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+
+/* Font */
+@import url('http://fonts.googleapis.com/earlyaccess/amiri.css');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 10rem;
+}
+
+h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 4rem;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5rem;
+
+}
+
+.card_content {
+  padding: 1rem;
+  background: gray;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+
+
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}

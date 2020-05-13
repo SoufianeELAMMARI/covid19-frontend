@@ -1,0 +1,17 @@
+{
+  "main.header.title": "كوفيد19",
+  "main.header.description": " تتبع عدد الإصابات بفيروس كورونا بشكل آني",
+  "main.global.statistics": "الإحصائيات العامة",
+  "main.total.cases": " {{total}} : إجمالي الاختبارات",
+  "main.confirmed.cases": " {{total}} : الحالات المؤكدة",
+  "main.deaths.cases": "  {{total}} : حالات الوفاة ",
+  "main.recovered.cases": "  {{total}} : الحالات المتعافية",
+  "main.active.cases": "{{total}} : الحالات المصابة حاليا",
+  "main.negative.cases": "{{total}} : الحالات الغير المصابة",
+  "main.evolution.cases": "({{rate}}){{total}} : الإصابات قبل يوم واحد",
+  "main.header.select.country": "اختر دولة",
+  "main.global.statistics.date": "اخر تحديث يوم {{day}} {{month}} {{year}} على الساعة {{time}}",
+  "main.header.results.unavailable": "نتائج غير متوفرة حاليا"
+
+ 
+}

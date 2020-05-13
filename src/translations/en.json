@@ -1,0 +1,16 @@
+{
+  "main.header.title": "Covid19",
+  "main.header.description": "Track Real Time Coronavirus Infection numbers",
+  "main.global.statistics": "Global Statistics",
+  "main.total.cases": "Total tests :{{total}}  ",
+  "main.confirmed.cases": "Confirmed Cases : {{total}} ",
+  "main.deaths.cases": "Death Cases :{{total}} ",
+  "main.recovered.cases": "Recovered Cases : {{total}}",
+  "main.active.cases": "Active Cases : {{total}} ",
+  "main.negative.cases": "Negative Cases : {{total}} ",
+  "main.evolution.cases": "Increase since yesterday: {{total}} ({{rate}}) ",
+  "main.header.select.country":"Select a country",
+  "main.global.statistics.date":"Last update {{month}} ,{{day}} {{year}} at {{time}} AM",
+  "main.header.results.unavailable": "Unavailable results"
+
+}
